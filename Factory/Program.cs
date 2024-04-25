@@ -9,7 +9,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        IPayment payment = PaymentFactory.create(PaymentMethod.MobilePay);
+        IPayment payment = PaymentFactory.create(PaymentMethod.Bitcoin);
         payment.Pay(100.00);
     }
 }

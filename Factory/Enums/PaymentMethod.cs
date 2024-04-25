@@ -9,5 +9,6 @@ public enum PaymentMethod
 {
     CreditCard,
     MobilePay,
-    GooglePay
+    GooglePay,
+    Bitcoin
 }
