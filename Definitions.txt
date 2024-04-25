@@ -1,0 +1,6 @@
+Builder: Used to simply object creation by creating a dedicated builder class for your entity with multiple constructors that
+gets formatted by the primary constructor.
+
+Adapter: Used to convert the interface of a class to another interface so the client code can access interface
+
+Factory: 
