@@ -1,9 +1,12 @@
-Builder: A pattern that simplifies object creation by creating a dedicated builder class for your entity
+Builder (Creational) : A pattern that simplifies object creation by creating a dedicated builder class for your entity
 with multiple constructors that gets formatted by the primary constructor.
 
-Adapter: A pattern that converts the interface of a class to another interface so the client code can access interface
+Adapter (Structural) : A pattern that converts the interface of a class to another interface so the client code can access interface
 
-Factory: A pattern that simplifies the creation of objects by letting a method handle object creation
+Factory (Creational) : A pattern that simplifies the creation of objects by letting a method handle object creation
 and then let subclasses override the method to adjust it to their specific needs.
 
-Singleton: A pattern that ensures that a class only can have one instance of an object
+Singleton (Creational) : A pattern that ensures that a class only can have one instance of an objects
+
+Observer (Behavioral) : A pattern that creates a subscription-mechanism that notifies multiple objects about events that happens to the object 
+they are observing (or subscribing to)
