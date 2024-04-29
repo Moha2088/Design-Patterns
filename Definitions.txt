@@ -10,3 +10,5 @@ Singleton (Creational) : A pattern that ensures that a class only can have one i
 
 Observer (Behavioral) : A pattern that creates a subscription-mechanism that notifies multiple objects about events that happens to the object 
 they are observing (or subscribing to)
+
+Strategy (Behavioral) : A pattern that splits algorithms into different classes and lets the client pick the one they need based on their needs
