@@ -1,14 +1,31 @@
 Builder (Creational) : A pattern that simplifies object creation by creating a dedicated builder class for your entity
 with multiple constructors that gets formatted by the primary constructor.
 
-Adapter (Structural) : A pattern that converts the interface of a class to another interface so the client code can access interface
-
 Factory (Creational) : A pattern that simplifies the creation of objects by letting a method handle object creation
 and then let subclasses override the method to adjust it to their specific needs.
 
 Singleton (Creational) : A pattern that ensures that a class only can have one instance of an objects
 
+Adapter (Structural) : A pattern that converts the interface of a class to another interface so the client code can access interface
+
 Observer (Behavioral) : A pattern that creates a subscription-mechanism that notifies multiple objects about events that happens to the object 
 they are observing (or subscribing to)
 
 Strategy (Behavioral) : A pattern that splits algorithms into different classes and lets the client pick the one they need based on their needs
+
+Bridge (Structural) : A pattern that decouples an abstraction from its implementation so they are independent of eachother.
+
+
+
+├───Behavioral
+│   ├───Observer
+│   └───Strategy
+|
+├───Creational
+│   ├───Builder
+│   ├───Factory
+│   └───Singleton
+|
+└───Structural
+    ├───Adapter
+    └───Bridge
